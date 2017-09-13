@@ -1,0 +1,25 @@
+.container{
+	background-color: black;
+}
+
+.divU{
+	background-color: blue;
+	font-family: cursive;
+	width: 300px;
+	height: 250px;
+}
+
+.divD{
+	width: 70px;
+	height: 200px;
+	background-color: red;
+	margin: 50px;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+.divT{
+	background-color: #b300b3;
+	width: 300px;
+	height: 840px;
+}

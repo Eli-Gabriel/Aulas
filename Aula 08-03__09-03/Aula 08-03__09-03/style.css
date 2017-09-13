@@ -1,0 +1,23 @@
+header{
+	text-align: center;
+	font-family: "Comic Sans MS";
+}
+
+section{
+	margin-left: 30%;
+	margin-right: 30%;
+
+}
+
+table{
+	 border-collapse: collapse;
+}
+
+body{
+	font-family: Courier;
+}
+
+#pé{
+	font-size: 70px;
+	background-color: blue;
+}
