@@ -1,0 +1,23 @@
+body{
+  background-color: rgb(74, 65, 42);
+  background-image: url('269279560021211.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-shadow: -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
+}
+
+.texto-azul-14{font-size: 14px; color: blue;}
+.texto-red-16{font-size: 16px; color: red;}
+.titulo{font-size: 20px; font-family: Verdana;}
+.subtitulo{font-size: 18px; font-family: Arial;}
+
+h1{
+  color: orange;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+p{
+  font-size: 16px;
+  color: white;
+}
