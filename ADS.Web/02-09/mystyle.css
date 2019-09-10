@@ -1,0 +1,32 @@
+body{
+  background-image: url(avocado.jpeg);
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+P {
+  font-family: cursive;
+  font-size: 14px;
+  color: blue;
+  /*text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;*/
+  text-decoration-color: green;
+  text-decoration-style: dashed;
+  /*text-transform: uppercase;*/
+}
+
+.pri{
+  width: 750px;
+  height: 350px;
+  background-color: #b300b3;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+/*
+text VVV
+font VVV
+background VVV
+border VVV
+width/height VVV
+Link (a href) VVV
+*/
