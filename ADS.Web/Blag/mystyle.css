@@ -2,7 +2,14 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: jediFont;
+  src: url(starjedi.ttf);
+}
+
 body{
+  background-color: black;
+  background: black url(stars.png) repeat;
   margin: 0;
   padding: 0;
 }
@@ -10,18 +17,20 @@ body{
 #container{
   width: 1152px;
   height: auto;
-  background-color: #CCC;
   margin: 0 auto;
 }
 
 header{
-  height: 250px;
-  background-color: #a3297a;
+  height: 350px;
+  font-family: jediFont;
+  color: yellow;
+  /*background: black url(stars.png) repeat;*/
+  background-size: auto;
 }
 
 main{
   width: 80%;
-  height: 650px;
+  height: auto;
   background-color: #33cc33;
   float: left;
 }
@@ -29,7 +38,7 @@ main{
 aside{
   float: left;
   width: 20%;
-  height: 600px;
+  height: auto;
   background-color: #ff00ff;
 }
 
@@ -39,6 +48,7 @@ footer{
 }
 
 h1, h2, h3{margin: 0; padding: 0; font-weight: normal;}
+h1{font-size: 100px;}
 h2{font-size: 28px;}
 h3{font-size: 14px;}
 
