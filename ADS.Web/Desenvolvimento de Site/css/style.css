@@ -6,9 +6,20 @@
  * Made By MaterializeCSS.com
  */
 
+#container{
+  background-image: url(imgs/motos-fundo.jpg);
+}
+
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+/*
+#rodape {
+	background-image: url(imgs/bg-rodape.jpg);
+	background-repeat: repeat-x;
+}
+*/
