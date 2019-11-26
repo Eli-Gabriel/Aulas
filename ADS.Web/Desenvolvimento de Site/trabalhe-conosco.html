@@ -15,7 +15,7 @@
     <div class="container">
       <br><br>
       <!--<h1 class="header center white-text">Starter Template</h1>-->
-      <div class="header center"><img class="responsive-img" src="imgs/logo.png"></div>
+      <div class="header center"><a href="index.html"><img class="responsive-img" src="imgs/logo.png"></a></div>
       <br><br>
     </div>
   </div>
@@ -23,7 +23,7 @@
   <nav class="#5d4037 brown darken-2" role="navigation">
     <div class="nav-wrapper container">
       <ul class="center hide-on-med-and-down">
-        <li><a href="#">Principal</a></li>
+        <li><a href="index.html">Principal</a></li>
         <li><a href="sobre-empresa.html">Sobre a Empresa</a></li>
         <li><a href="produtos.html">Produtos</a></li>
         <li><a href="informativos.html">Informativos</a></li>
@@ -33,14 +33,14 @@
         <li><a href="contato.html">Contato</a></li>
       </ul>
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Principal</a></li>
-        <li><a href="sobre-empresa.html">Sobre a Empresa</a></li>
-        <li><a href="produtos.html">Produtos</a></li>
-        <li><a href="informativos.html">Informativos</a></li>
-        <li><a href="eventos.html">Eventos</a></li>
-        <li><a href="representantes.html">Representantes</a></li>
-        <li><a href="trabalhe-conosco.html">Trabalhe Conosco</a></li>
-        <li><a href="contato.html">Contato</a></li>
+        <li><a href="index.html"><i class="material-icons">home</i>Principal</a></li>
+        <li><a href="sobre-empresa.html"><i class="material-icons">business</i>Sobre a Empresa</a></li>
+        <li><a href="produtos.html"><i class="material-icons">local_grocery_store</i>Produtos</a></li>
+        <li><a href="informativos.html"><i class="material-icons">info</i>Informativos</a></li>
+        <li><a href="eventos.html"><i class="material-icons">event</i>Eventos</a></li>
+        <li><a href="representantes.html"><i class="material-icons">people</i>Representantes</a></li>
+        <li><a href="trabalhe-conosco.html"><i class="material-icons">people_outline</i>Trabalhe Conosco</a></li>
+        <li><a href="contato.html"><i class="material-icons">contact_phone</i>Contato</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
@@ -48,7 +48,141 @@
 
   <div class="row"><div class="col s1"></div></div>
 
+  <div class="container">
+    <div class="section">
+      <div class="row">
 
+        <div class="col s12 m8">
+          <h5 class="left">Trabalhe Conosco</h5>
+
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="nome_completo" type="text" class="validate">
+                  <label for="nome_completo">Nome Completo</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="email" type="text" class="validate">
+                  <label for="email">E-mail</label>
+                </div>
+                <div class="input-field col s3">
+                  <select>
+                    <option value="" disabled selected>Sexo</option>
+                    <option value="0">Masculino</option>
+                    <option value="1">Feminino</option>
+                  </select>
+                </div>
+                <div class="input-field col s4">
+                  <input id="dtnasc" type="text" class="validate">
+                  <label for="dtnasc">Data de Nascimento</label>
+                </div>
+                <div class="input-field col s5">
+                  <input id="cpf" type="text" class="validate">
+                  <label for="cpf">CPF</label>
+                </div>
+
+                <div class="input-field col s3">
+                  <select>
+                    <option value="" disabled selected>Estado Civil</option>
+                    <option value="solteiro-a">Solteiro(a)</option>
+                    <option value="casado-a">Casado(a)</option>
+                    <option value="divorciado-a">Divorciado(a)</option>
+                    <option value="viuvo-a">Viúvo(a)</option>
+                  </select>
+                </div>
+
+                <div class="input-field col s6">
+                  <input id="endereco" type="text" class="validade">
+                  <label for="endereco">Endereço</label>
+                </div>
+                <div class="input-field col s3">
+                  <input id="numero" type="text" class="validade">
+                  <label for="numero">Número</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="bairro" type="text" class="validade">
+                  <label for="bairro">Bairro</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="cidade" type="text" class="validade">
+                  <label for="cidade">Cidade</label>
+                </div>
+
+                <div class="input-field col s3">
+                  <select>
+                    <option value="" disabled selected>Estado</option>
+                    <option value="ac">Acre</option>
+                    <option value="ro">Rondônia</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="sp">são Paulo</option>
+                  </select>
+                </div>
+
+                <div class="input-field col s6">
+                  <input id="cep" type="text" class="validade">
+                  <label for="cep">CEP</label>
+                </div>
+                <div class="input-field col s4">
+                  <input id="tel" type="text" class="validade">
+                  <label for="tel">Telefone</label>
+                </div>
+                <div class="input-field col s4">
+                  <input id="cel" type="text" class="validade">
+                  <label for="cel">Celular</label>
+                </div>
+
+                <div class="input-field col s4">
+                  <select>
+                    <option value="" disabled selected>Onde deseja Trabalhar?</option>
+                    <option value="ac">Matriz-Presidente Médici/RO</option>
+                    <option value="ro">Arquemes/RO</option>
+                    <option value="rj">Guajará Mirim/RO</option>
+                    <option value="sp">Ji-paraná/RO</option>
+                    <option value="sp">Cacoal/RO</option>
+                    <option value="sp">Porto Velho/RO</option>
+                    <option value="sp">Cuiabá/MT</option>
+                    <option value="sp">Rio Branco/AC</option>
+                  </select>
+                </div>
+
+                <div class="col s12 m6">
+                  <div class="file-field input-field">
+                    <div class="btn">
+                      <span>Foto</span>
+                      <input type="file">
+                    </div>
+                    <div class="file-path-wrapper">
+                      <input class="file-path validate" type="text">
+                    </div>
+                    <span class="helper-text" data-error="wrong" data-success="right">O tamanho ideal da Foto é de 150x220 pixels no formato JPG/JPEG/GIF.</span>
+                  </div>
+                </div>
+
+                <p>
+                  <label>
+                    <input type="checkbox" class="filled-in"/>
+                    <span> Declaro, estar ciente que estas informações serão utilizadas para fins de seleção e recrutamento profissional. Que todas as informações contidas nessa ficha são fiéis e dou fé. Autorizo esta empresa a fazer pesquisa de situação financeira junto aos órgãos de proteção ao crédito e regularidade dos documentos pessoais.</span>
+                  </label>
+                </p>
+
+                <blockquote><h6>Resumos</h6></blockquote>
+
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="col s12 m4" style="margin-top:38px;">
+          <div class="right">
+            <a href="trabalhe-conosco.html"><img class="responsive-img" src="imgs/banner-trabalhe-conosco.jpg" alt=""></a>
+            <a href="contato.html"><img class="responsive-img" src="imgs/banner-onde-estamos.jpg" alt=""></a>
+            <a href="eventos.html"><img class="responsive-img" src="imgs/banner-nossos-eventos.jpg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div class="row"><div class="col s1"></div></div>
 
