@@ -1,11 +1,25 @@
 <?php
-    
     include 'pessoa.php';
     
     $titulo = "Hello world!";
-    $nomes = array("João", "Lucas", "Pedro", "Matheus");
 
     $pessoa1 =  new Pessoa("João", "Teixeira");
+    $pessoa2 =  new Pessoa("Lucas", "Racki");
+    $pessoa3 =  new Pessoa("Pedro", "Lucas");
+
+    $nomes_obj = [$pessoa1, $pessoa2, $pessoa3, $pessoa4];
+
+
+    if ($_POST) {
+        $nome = $_POST["nome"];
+        $sobrenome = $_POST["sobrenome"];
+        $data_nasc = $_POST["data_nasc"];
+
+        $pessoa4 = new Pessoa($nome, $sobrenome);
+
+        $nomes_obj[] = $pessoa4;
+    }  
+    
 ?>
 
 <!DOCTYPE html>
