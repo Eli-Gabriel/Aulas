@@ -28,6 +28,8 @@ if ($_POST) {
         echo "Houve um erro ao salvar o contato. Contate o administrador do Software";
     }
 
+    header("location: ./index.php");
+
 } else {
     header("location: ./cadastro.php");
 }
