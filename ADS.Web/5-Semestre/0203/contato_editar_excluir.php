@@ -7,12 +7,12 @@ if ($_POST) {
 
     $query = "DELETE FROM contatos WHERE id = :r_id";
 
-    $update = $connection->prepare($query);
-    $update->bindParam(":r_id", $id);
+    $delete = $connection->prepare($query);
+    $delete->bindParam(":r_id", $id);
 
-    $result = $update->execute();
+    $result = $delete->execute();
 
-    if ($result && $update -> rowCount() > 0) {
+    if ($result && $delete -> rowCount() > 0) {
         echo "O contato foi excluido com sucesso";
     } else {
         echo "Houve um erro ao excluir o contato. Contate o administrador do Software";
